@@ -1,9 +1,9 @@
-baseURL: ''
-title: TailBliss
+baseURL: 'https://satoshiswilly.xyz'
+title: Satoshi's Willy
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
-enableGitInfo: true
+enableGitInfo: false
 enableRobotsTXT: true
 canonifyURLs: true
 pagination:
@@ -47,17 +47,23 @@ markup:
       xhtml: false
 
 params:
-  author: Nusser Studios
-  authorimage: ../assets/images/global/author.webp
-  og_image: /images/tailbliss-cover.png
-  moto: "Super Fast, and Flexible"
-  description: "A Hugo theme built with love, using TailwindCSS 3, Alpine.JS, and Hugo Pipes. Images are optimized for use with Hugo Pipes for WebP format."
-  disable_theme_toggle: false
-  disable_stay_uptodate: false
+  author: Satoshi's Willy
+  authorimage: ../assets/images/willy.webp
+  og_image: ../assets/images/willy.webp
+  moto: "#WILLYtuahBilly"
+  description: "Nothing pumps harder than Satoshi's Willy. Ai meme programmed to shill itself to a billy and beyond. Are your hands strong enough to hold the legendary Willy?"
+  disable_theme_toggle: true
+  disable_stay_uptodate: true
 
   p1:
     heading: "Our mission"
-    image: "images/pages/our-mission.png"
+    #image: "images/willy1.gif"
+    gif:
+      src: "images/willy1.gif"
+      autoplay: true
+      loop: true
+      muted: true
+
     content:
       - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae."
       - text: "Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eroserat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna."
@@ -198,17 +204,17 @@ privacy:
   googleAnalytics:
     anonymizeIP: true
     disable: false
-    respectDoNotTrack: false
+    respectDoNotTrack: true
     useSessionStorage: false
   instagram:
-    disable: false
+    disable: true
     simple: false
   twitter:
     disable: false
     enableDNT: false
     simple: false
   vimeo:
-    disable: false
+    disable: true
     enableDNT: false
     simple: false
   youtube:
