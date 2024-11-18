@@ -87,17 +87,13 @@
 
                                   
                  <!-- Jupiter widget -->
-                 <div id="integrated-terminal" style="width: 400px; height: 568px;" class="justify-center"></div>
+                 <!-- <div id="integrated-terminal" style="width: 400px; height: 568px;" class="justify-center"></div> -->
 
-                    <div class="overflow-hidden shadow-xl rounded-2xl">
-                        {{ $p1image := resources.Get .Site.Params.P1.Image }}
-                        {{ with $p1image }}
-                        {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
-                        <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" class="w-full h-auto" alt="P1" loading="lazy" />
-                        {{ end }}
-                        {{ end }}
-
+                    <div class="overflow-hidden shadow-xl rounded-2xl">        
+                        {{ $p1image := resources.GetMatch "images/willy1.gif"}}
+                        <img src="{{ $p1image.RelPermalink }}" width="" height="100%" alt="WILLY tuah Billy" class="w-full rounded-lg shadow-xl lg:max-w-none" loading="lazy" />
                     </div>
+
                 </div>
             </div>
             
@@ -160,7 +156,6 @@
                     <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="p2" class="w-full rounded-lg shadow-xl lg:h-full lg:w-auto lg:max-w-none" loading="lazy" />
                     {{ end }}
                     {{ end }}
-
                 </div>
             </div>
         </div>
