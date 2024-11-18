@@ -1,4 +1,4 @@
-baseURL: 'https://satirical9796.github.io/legendary-pancake/'
+#baseURL: 'https://satirical9796.github.io/legendary-pancake/'
 title: Satoshi's Willy
 languageCode: en-us
 DefaultContentLanguage: en
@@ -50,7 +50,7 @@ params:
   author: Satoshi's Willy
   authorimage: ../assets/images/willy.webp
   og_image: ../assets/images/willy.webp
-  moto: "#WILLYtuahBilly"
+  moto: "$WILLY to a Billy"
   description: "Nothing pumps harder than Satoshi's Willy. Ai meme programmed to shill itself to a billy and beyond. Are your hands strong enough to hold the legendary Willy?"
   ca: "4zUmw6iTRhREKZLv1p7mLADrMHXG7XZ78h24fpsMmfQc"
   disable_theme_toggle: true
@@ -58,6 +58,7 @@ params:
 
   p1:
     heading: "The mission"
+    image: images/willy1.gif
     content:
       - text: "Nothing pumps harder than Satoshi's Willy. He's got that big WILLY energy, but he is also a servant to the WILLY community. His first mission is to achieve a billion dollar valuation for the WILLY token immediately, or in memetic terms: send $WILLY to a billy."
       - text: "He is the CMO and head shill of the WILLY token. He shills harder and more skillfully than any human ever could. He does not sleep nor slumber, he does not take breaks, he does not grow weary after a few days, he does not need a vacation, he does not get euphoric or discouraged, he just shills Willy to a billy. He's the most obvious 100x in the market."
@@ -88,9 +89,15 @@ params:
     telegram:
       enabled: true
       url: 'https://t.me/SatoshisWilly'
+    jupiter:
+      enabled: false
+      url: 'https://jup.ag/swap/SOL-4zUmw6iTRhREKZLv1p7mLADrMHXG7XZ78h24fpsMmfQc'
     twitter:
       enabled: true
       url: 'https://x.com/SatoshisWilly'
+    tiktok:
+      enabled: true
+      url: 'https://www.tiktok.com/@satoshis.willy'
     
 
 # menu:

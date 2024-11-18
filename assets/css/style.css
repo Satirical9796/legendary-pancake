@@ -4876,6 +4876,11 @@ EmojiSymbols;
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .xl\:text-xxl {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
 }
 
 .rounded-image {
