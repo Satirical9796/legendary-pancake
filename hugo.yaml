@@ -48,8 +48,8 @@ markup:
 
 params:
   author: Satoshi's Willy
-  authorimage: ../assets/images/willy.webp
-  og_image: ../assets/images/willy.webp
+  authorimage: ../assets/images/willy_logo.png
+  og_image: ../assets/images/willy_logo.png
   moto: "$WILLY to a Billy"
   description: "Nothing pumps harder than Satoshi's Willy. Ai meme programmed to shill itself to a billy and beyond. Are your hands strong enough to hold the legendary Willy?"
   ca: "4zUmw6iTRhREKZLv1p7mLADrMHXG7XZ78h24fpsMmfQc"
