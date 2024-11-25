@@ -43,6 +43,6 @@
   },
   "homepage": "https://github.com/nusserstudios/tailbliss",
   "dependencies": {
-    "@jup-ag/terminal": "^3.3.1"
+    "@jup-ag/terminal": "^3.3.2"
   }
 }
